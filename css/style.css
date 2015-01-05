@@ -94,6 +94,14 @@ em
 	font-style: italic;
 }
 
+logo
+{
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	text-transform: lowercase;
+	/*font-style: italic;*/
+}
+
 h1, h2, h3
 {
 	font-size: 60px;
