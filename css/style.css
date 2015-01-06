@@ -11,6 +11,7 @@
 ================================================== */
 
 @import url("fonts/fontawesome/font-awesome.css");
+@import url("fonts/podkart-font/podkart-font.css");
 
 /* ==================================================
    Google Fonts
@@ -94,14 +95,6 @@ em
 	font-style: italic;
 }
 
-logo
-{
-	font-family: 'Comfortaa', cursive;
-	font-weight: 400;
-	text-transform: lowercase;
-	/*font-style: italic;*/
-}
-
 h1, h2, h3
 {
 	font-size: 60px;
@@ -148,14 +141,25 @@ h1, h2, h3
    Company logo
 ================================================== */
 
-.logo {
-    background-image: url(../images/logo.svg);
-    background-size: 100px 100px;
-    background-repeat: no-repeat;
-    display: block;
-    width: 100px;
-    height: 100px;
+logotext
+{
+	font-family: 'Comfortaa', cursive;
+	font-weight: 300;
+	text-transform: lowercase;
+	font-size: 70px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
+
+logoimage
+{
+	font-family: "podkart-fontregular";
+	text-transform: lowercase;
+	font-size: 100px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 
 /* ==================================================
    Separator Arrows
