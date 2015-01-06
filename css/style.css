@@ -141,21 +141,23 @@ h1, h2, h3
    Company logo
 ================================================== */
 
-logotext
+logotext:before
 {
 	font-family: 'Comfortaa', cursive;
 	font-weight: 300;
 	text-transform: lowercase;
 	font-size: 70px;
+	content: "Podkart";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-logoimage
+logoimage:before
 {
 	font-family: "podkart-fontregular";
 	text-transform: lowercase;
 	font-size: 100px;
+	content:"\f060";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
