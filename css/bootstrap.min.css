@@ -83,7 +83,9 @@ sub {
 }
 
 img {
-    border: 0
+    border: 0;
+    width: 480px;
+    max-width: 90%;
 }
 
 svg:not(:root) {
@@ -1393,6 +1395,7 @@ figure {
 
 img {
     vertical-align: middle
+
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive,
