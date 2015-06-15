@@ -37,7 +37,7 @@ h6 {
     color: #f8f8f8;
     /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
     background-size: cover;
-    background-color: #2B5464;
+    /* background-color: #2B5464; */
 }
 
 .intro-message {
@@ -193,7 +193,7 @@ p.copyright {
 }
 
 .corner-ribbon.shadow{
-  box-shadow: 0 0 3px rgba(0,0,0,.3);
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
 }
 
 /* Different positions */
